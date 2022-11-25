@@ -30,9 +30,29 @@
 /* first section */
 
 .first-section{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     border-bottom: 1px solid rgb(158, 141, 141);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.7s;
+    z-index: 10000;
+}
+
+.first-section.sticky{
+    padding: 15px 4px;
+    background-color: rgb(250, 248, 248);
+    border-bottom: none;
+}
+
+.first-section.sticky .nav-link{
+    color: rgb(71, 65, 65);
+}
+
+.first-section.sticky .mnour{
+    color: rgb(71, 65, 65);
 }
 
 .wrapper{
@@ -91,10 +111,10 @@ img{
 .nav-item::before{
     content: "";
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: blue;
     position: absolute;
-    bottom: -21px;
+    bottom: -20.1px;
     right: 0;
     transition: transform 0.7s ease-in-out;
     transform: scaleX(0);
@@ -114,17 +134,17 @@ img{
     display: block;
     list-style: none;
     position: absolute;
-    top: 60px;
+    top: 59px;
     left: 0;
     width: 212px;
-    background-color: #fff; 
+    background-color: rgb(245, 237, 237); 
     visibility: hidden;
     opacity: 0;
     transition: 2s;
     transform: scaleY(0);
     transform-origin: top center;
     overflow: hidden;
-    z-index: 100;
+    z-index: -100;
 }  
 
 .nav-item:hover .main-menu-2{
@@ -142,3 +162,5 @@ img{
 .nav-item-2:hover .nav-link-2{
     color: blue;
 }
+
+/* end main menu-2 */

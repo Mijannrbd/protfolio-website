@@ -94,14 +94,15 @@ img{
     justify-content: center;
     align-items: center;
     list-style: none;
+    position: relative;
 }
 
 .nav-link{
     color: #fff;
+    padding: 20px 25px;
 }
 
 .nav-item{
-    padding: 10px 25px;
     transition: .3s;
     position: relative;
     cursor: pointer;
@@ -117,7 +118,7 @@ img{
     height: 3px;
     background-color: blue;
     position: absolute;
-    bottom: -21.1px;
+    bottom: -32.1px;
     right: 0;
     transition: transform 0.7s ease-in-out;
     transform: scaleX(0);
@@ -137,7 +138,7 @@ img{
     display: block;
     list-style: none;
     position: absolute;
-    top: 59px;
+    top: 50px;
     left: 0;
     width: 212px;
     background-color: rgb(245, 237, 237); 

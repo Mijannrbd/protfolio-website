@@ -37,13 +37,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    transition: 0.7s;
     z-index: 10000;
 }
 
 .first-section.sticky{
-    padding: 15px 4px;
-    background-color: rgb(250, 248, 248);
+    padding: 15px 0;
+    background-color: rgb(245, 239, 239);
     border-bottom: none;
 }
 
@@ -53,6 +52,10 @@
 
 .first-section.sticky .mnour{
     color: rgb(71, 65, 65);
+}
+
+.first-section.sticky .main-menu{
+    margin-top: -5px;
 }
 
 .wrapper{
@@ -164,3 +167,97 @@ img{
 }
 
 /* end main menu-2 */
+
+/* humberger strat*/
+
+.humberger{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#drop{
+    font-size: 18px;
+}
+
+#drop2{
+    font-size: 18px;
+}
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 995px) {
+    .main-menu{
+        display: none;
+    }
+    .humberger{
+      display: block;
+      display: flex;
+      margin-right: 20px;
+    }
+
+    .humberger #drop2{
+        display: none;
+    }
+
+    .humberger.active #drop2{
+        display: block;
+    }
+
+    .humberger.active #drop{
+        display: none;
+    }
+   
+    .main-menu.active{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 83px;
+        left: 0;
+        z-index: 100;
+    }
+
+    .nav-item{
+        padding: 15px;
+        width: 1100px;
+        background-color: #f9f7f7;
+        border-top: 1px solid rgb(1 220 255);
+    }
+
+    .nav-item:nth-child(4) {
+        border-bottom: 1px solid rgb(1 220 255)
+    }
+
+    .nav-link{
+        color: black;
+    }
+
+    .nav-item::before{
+        display: none;
+    }
+
+    .background-imaged{
+        margin-top: 82px;
+    }
+
+    .mnour{
+        color: black;
+    }
+    
+    
+}
+
+@media  screen and (max-width: 775px) {
+    .background-imaged{
+        height: 600px;
+    }
+}
+

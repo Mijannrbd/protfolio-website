@@ -192,6 +192,7 @@ img{
 
 
 
+
 /* responsive */
 
 @media screen and (max-width: 995px) {
@@ -220,7 +221,7 @@ img{
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 83px;
+        top: 82px;
         left: 0;
         z-index: 100;
     }
@@ -259,5 +260,25 @@ img{
     .background-imaged{
         height: 600px;
     }
+}
+
+
+@media screen and (max-width: 270px) {
+    .meta{
+        width: 60px;
+    }
+
+    .humberger{
+        height: 35px;
+        width: 35px;
+    }
+    .background-imaged{
+        margin-top: 70px;
+        height: 612px
+    }
+    .main-menu.active{
+        margin-top: -13px;
+    }
+    .mnour{}
 }
 

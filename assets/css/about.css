@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* background and blur */
+
+.backgrounds-imaged{
+    background-image: url(../image/Marketing-Team.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    position: relative;
+}
+
+.blur-background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* background and blur end  */
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 995px) {
+    .main-menu{
+        display: none;
+    }
+    .humberger{
+      display: block;
+      display: flex;
+      margin-right: 20px;
+    }
+
+    .humberger #drop2{
+        display: none;
+    }
+
+    .humberger.active #drop2{
+        display: block;
+    }
+
+    .humberger.active #drop{
+        display: none;
+    }
+   
+    .main-menu.active{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 82px;
+        left: 0;
+        z-index: 100;
+    }
+
+    .nav-item{
+        padding: 15px;
+        width: 1100px;
+        background-color: #f9f7f7;
+        border-top: 1px solid rgb(1 220 255);
+    }
+
+    .nav-item:nth-child(4) {
+        border-bottom: 1px solid rgb(1 220 255)
+    }
+
+    .nav-link{
+        color: black;
+    }
+
+    .nav-item::before{
+        display: none;
+    }
+
+    .backgrounds-imaged{
+        margin-top: 82px;
+    }
+
+    .mnour{
+        color: black;
+    }
+    
+    
+}
+
+@media  screen and (max-width: 775px) {
+    .backgrounds-imaged{
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 270px) {
+    .meta{
+        width: 60px;
+    }
+
+    .humberger{
+        height: 35px;
+        width: 35px;
+    }
+    .backgrounds-imaged{
+        margin-top: 70px;
+        height: 612px
+    }
+    .main-menu.active{
+        margin-top: -13px;
+    }
+    .mnour{}
+}
+
+

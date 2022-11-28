@@ -12,7 +12,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 690px;
+    height: 657px;
     position: relative;
 }
 
@@ -26,6 +26,52 @@
 }
 
 /* background and blur end  */
+
+/* header section in background image */
+
+.chdsf{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.cntactde{
+    color: #fff;
+}
+.homesded{
+   margin-top: 15px;
+    color: #fff;
+}
+.aboutsdf{
+   display: inline-block;;
+    padding: 10px 30px;
+    background-color: blue;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 30px;
+    transition: .3s;
+}
+.aboutsdf:hover{
+    background-color: rgba(37, 228, 82, 1);
+    color: black;
+}
+
+.hlme{
+   display: inline-block;
+    padding: 10px 30px;
+    background-color: rgba(37, 228, 82, 1);
+    color: #fff;
+    transition: .3s;
+}
+
+.hlme:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
 
 /* responsive */
 
@@ -92,7 +138,10 @@
 
 @media  screen and (max-width: 775px) {
     .backgroundf-imaged{
-        height: 600px;
+        height: 479px;
+    }
+    .cntactde{
+        margin-top: 160px;
     }
 }
 
@@ -108,11 +157,23 @@
     }
     .backgroundf-imaged{
         margin-top: 70px;
-        height: 612px
+        height: 490px;
     }
     .main-menu.active{
         margin-top: -13px;
     }
+    .adfro{
+        display: none;
+    }
     .mnour{}
+}
+
+@media screen and (max-width: 239px) {
+   .aboutsdf{
+        margin-left: 27px;
+   } 
+   .hlme{
+       margin-top: 20px;
+   }
 }
 

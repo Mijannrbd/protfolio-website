@@ -203,11 +203,14 @@ img{
     padding: 5px 10px;
     background-color: #fff;
     border-radius: 4px;
+    display: inline-block;
 }
 .mijanrd{
     color: #fff;
     margin-top: 20px;
-    font-size: 60px
+    font-size: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .Enthusiastic{
     color: #fff;
@@ -312,14 +315,20 @@ img{
     .mnour{
         color: black;
     }
-    
-    
+    .first-section{
+        border-bottom: none;
+    }
+
 }
 
 @media  screen and (max-width: 775px) {
     .background-imaged{
         height: 580px;
     }
+    .heyi{
+        margin-top: 60px;
+    }
+    
     .mijanrd{
         font-size: 40px;
     }
@@ -359,5 +368,23 @@ img{
         margin-top: -13px;
     }
     .mnour{}
+}
+
+
+
+@media screen and (max-width: 252px) {
+    .contactus{
+        margin-right: 11px;
+        margin-top: 10px;
+    }
+    .first-section{
+        border-bottom: none;
+    }
+    .mnour{
+        font-size: 20px;
+    }
+    .oun{
+        display: none;
+    }
 }
 

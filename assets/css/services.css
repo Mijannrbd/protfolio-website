@@ -12,7 +12,7 @@
     background-position: middle;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 767px;
+    height: 657px;
     position: relative;
 }
 
@@ -53,6 +53,62 @@
 }
 
 /* background and blur end  */
+
+/* header section in background image */
+
+.dirst{
+    text-align: center;
+    margin-top: 20%;
+}
+.eidsd{
+    margin-top: 20px;
+    color: #fff;
+}
+.srevsd{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.oieds{
+    display: inline-block;
+    margin: 15px;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: blue;
+    transition: .3s;
+}
+
+.oieds:hover{
+    background: linear-gradient(to top,blue,red,yellow);
+}
+
+.oied{
+    display: inline-block;
+    padding: 10px 25px;
+    background: linear-gradient(to top,blue,red,yellow);
+    transition: .3s;
+    color: #fff;
+}
+
+.oied:hover{
+    background-color: blue;
+}
+
+/* end header section in background image */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive */
 
@@ -98,7 +154,7 @@
         border-bottom: 1px solid rgb(1 220 255)
     }
 
-    .nav-link{
+    .nav-links{
         color: black;
     }
 
@@ -119,9 +175,20 @@
 
 @media  screen and (max-width: 775px) {
     .backgroundd-imaged{
-        height: 600px;
+        height: 479px;
     }
 }
+
+
+
+
+@media screen and (max-width: 500px) {
+    .eidsd{
+       margin-top: 150px;
+    }
+}
+
+
 
 
 @media screen and (max-width: 270px) {
@@ -140,6 +207,18 @@
     .main-menu.active{
         margin-top: -13px;
     }
+    .backgroundd-imaged{
+        height: 490px;
+    }
     .mnour{}
 }
 
+
+@media screen and (max-width: 247px) {
+    .oied{
+        margin-top: 20px;
+    }
+    .oieds{
+        margin-top: 20px;
+    }
+}

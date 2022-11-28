@@ -11,7 +11,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 690px;
+    height: 657px;
     position: relative;
 }
 
@@ -25,6 +25,60 @@
 }
 
 /* background and blur end  */
+
+/* header section in background image*/
+
+.kins{
+    text-align: center;
+    margin-top: 20%;
+}
+.aboutusd{
+    color: #fff;
+    font-size: 40px;
+}
+.homeus{
+    margin-top: 15px;
+    color: #fff;
+}
+.butt{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 25px;
+    background-color: blue;
+    color: #fff;
+    transition: .3s;
+}
+
+.butt:hover{
+    border-radius: 15px;
+}
+.buttsd{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: blue;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.buttsd:hover{
+    border-radius: 0px;
+}
+
+/* end header section in background image */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -90,14 +144,26 @@
         color: black;
     }
     
-    
 }
+
+
 
 @media  screen and (max-width: 775px) {
     .backgrounds-imaged{
-        height: 600px;
+        height: 479px;
+    }
+    .aboutusd{
+        margin-top: 26%;
     }
 }
+
+
+@media screen and (max-width: 500px) {
+    .aboutusd{
+        margin-top: 150px;
+    }
+}
+
 
 
 @media screen and (max-width: 270px) {
@@ -116,7 +182,23 @@
     .main-menu.active{
         margin-top: -13px;
     }
+    .aboutusd{
+        margin-top: 140px
+    }
+    .backgrounds-imaged{
+        height: 490px;
+    }
     .mnour{}
+}
+
+@media screen and (max-width: 253px) {
+    .dirsl{
+        display: none;
+    }
+    .buttsd{
+        margin-right: 27px;
+        margin-top: 20px;
+    }
 }
 
 

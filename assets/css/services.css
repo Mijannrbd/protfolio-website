@@ -12,7 +12,7 @@
     background-position: middle;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 690px;
+    height: 767px;
     position: relative;
 }
 
@@ -23,6 +23,33 @@
     top: 0;
     left: 0;
     background-color: rgba(0,0,0,0.5);
+}
+
+.wrappers{
+    width: 100%;
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links{
+    color: #fff;
+    font-size: 17px;
+    padding: 20px 25px;
+}
+
+.first-section.sticky .nav-links{
+    color: rgb(71, 65, 65);
+}
+
+.nav-item{
+    transition: .3s;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item:hover .nav-links{
+    color: blue;
 }
 
 /* background and blur end  */

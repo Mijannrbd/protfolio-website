@@ -189,6 +189,65 @@ img{
     font-size: 18px;
 }
 
+/* humberger end */
+
+/* <!-- header section in background image --> */
+
+
+.headersd{
+    text-align: center;
+    margin-top: 18%;
+    position: relative;
+}
+.heyi{
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.mijanrd{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 60px
+}
+.Enthusiastic{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.mored{
+    color: #fff;
+    display: inline-block;
+    margin-top: 34px;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.mored:hover{
+   background: transparent;
+    border: 1px solid #fff;
+}
+.contactus{
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.contactus:hover{
+    background-color: blue;
+    border: none;
+}
+
+
+
+
+
 
 
 
@@ -259,9 +318,28 @@ img{
 
 @media  screen and (max-width: 775px) {
     .background-imaged{
-        height: 600px;
+        height: 580px;
+    }
+    .mijanrd{
+        font-size: 40px;
+    }
+    .Enthusiastic{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .mored{
+        font-size: 15px;
+        padding: 10px 17px;
+    }
+    .contactus{
+         font-size: 15px;
+         padding: 10px 20px;
     }
 }
+
+
 
 
 @media screen and (max-width: 270px) {

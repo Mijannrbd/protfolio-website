@@ -492,12 +492,14 @@ img{
     }
     .enter{
         font-size: 22px;
+        margin-left: -5px;
     }
     .workin{
         font-size: 15px;
     }
     .wedv{
         font-size: 22px;
+        margin-left: -5px;
     }
     .visibl{
         font-size: 15px;

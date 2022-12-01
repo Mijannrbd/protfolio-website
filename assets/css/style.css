@@ -493,15 +493,19 @@ img{
     }
     .enter{
         font-size: 22px;
+        margin-left: 5px;
     }
     .workin{
         font-size: 15px;
+        margin-left: 48px;
     }
     .wedv{
         font-size: 22px;
+         margin-left: 5px;
     }
     .visibl{
         font-size: 15px;
+         margin-left: 48px;
     }
     .first-section-2{
         padding-top: 70px;

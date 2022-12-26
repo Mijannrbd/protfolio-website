@@ -106,10 +106,6 @@
 
 
 
-
-
-
-
 /* responsive */
 
 @media screen and (max-width: 995px) {
@@ -154,10 +150,6 @@
         border-bottom: 1px solid rgb(1 220 255)
     }
 
-    .nav-links{
-        color: black;
-    }
-
     .nav-item::before{
         display: none;
     }
@@ -169,8 +161,6 @@
     .mnour{
         color: black;
     }
-    
-    
 }
 
 @media  screen and (max-width: 775px) {
@@ -221,7 +211,7 @@
     .oieds{
         margin-top: 20px;
     }
-    .mnours{
+    .adrdg{
         display: none;
     }
 }
